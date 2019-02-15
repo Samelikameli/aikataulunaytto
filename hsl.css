@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    height: 100%;
+    max-height: 100%;
+    font-family: Arial,Helvetica,sans-serif;
+    background: #003873;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-color: #003873;
+    color: #000000;
+}
+
+#header-table{
+    padding-top: 12px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#logo {
+    width: 250px;
+    padding: 10px 10px 10px 15px;
+}
+
+#title {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#clock {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 5px;
+    width: 250px;
+    color: #FFFFFF;
+}
+
+#close {
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#departures {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #003873;
+}
+
+.departures-table{
+    font-weight: bold;
+    color: #FFFF00;
+    font-size: 40px;
+    width: 100%;
+    border-collapse:collapse;
+    white-space: nowrap;
+}
+
+.departures-table th {
+    background: #002852;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+.departures-table td {
+    padding: 10px 20px 10px 20px;
+    border-bottom: solid 1px #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.departures-table td.destination {
+    text-overflow: ellipsis;
+}
+
+.hiddenDep{
+    display: none;  
+}
+
+.stop,
+.stopname,
+.platform {
+    width: 17%;
+    text-align: right;
+}
+
+.canceled {
+    color: red;
+    font-size: 30px;
+}
+
+#inforow {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background-color: #002852;
+    color: #FFFFFF;
+    display: table;
+    text-align: center;
+}
+
+#info {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    height: 100%; 
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.info_important {
+    background-color: red;
+}
+
+/**************************************/
+.column-headers-table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.column-headers-table th {
+    background: #002852;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.column-headers-table th,
+.departures-table td {
+    padding: 10px 10px 10px 30px;
+}
+
+#departures .left,
+#departures .right {
+    float: left;
+    width: 49.6%;
+    overflow: hidden;
+}
+
+#departures .border {
+    float: left;
+    width: 0.7%;
+    background-color: #002852;
+    height: 56px;
+}
+
+#departures-container {
+    height: 100%;
+    clear: left;
+}
+
+#departures-container .border {
+    height: 100%;
+}
+
+.time {
+    width: 200px;
+    text-align: right;
+}
+
+.line {
+    width: 200px;
+    text-align: right;
+    padding-right: 100px !important;
+}
+
+.destination {
+    text-align: left;
+}
+
+.stop,
+.stopname,
+.platform {
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+@media (max-width: 1080px) { 
+    .line {
+        width: 140px;
+        padding-right: 30px !important;
+    }
+
+}
+
+/* for splitted view*/
+.left .time,
+.right .time {
+    width: 150px;
+}
+
+.left .line,
+.right .line {
+    width: 120px;
+    padding-right: 10px !important;
+}
+
+.left .stop,
+.left .stopname,
+.left .platform,
+.right .stop,
+.right .stopname,
+.right .platform {
+    width: 150px;
+}
+#metro{
+    height: 45px;
+    float: right;
+}

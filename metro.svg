@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   viewBox="0 0 962.57703 962.57703"
+   id="icon-icon_subway">
+  <metadata
+     id="metadata144">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>icon_subway</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs142" />
+  <title
+     id="title133">icon_subway</title>
+  <path
+     style="fill:#ff6319"
+     id="path135"
+     d="M 839.694,962.577 H 122.883 C 55.019,962.577 0,907.562 0,839.694 V 122.883 C 0,55.019 55.015,0 122.883,0 h 716.811 c 67.864,0 122.883,55.015 122.883,122.883 v 716.811 c 0,67.868 -55.018,122.883 -122.883,122.883 z"
+     class="subway" />
+  <path
+     style="fill:#ffffff"
+     id="path137"
+     d="m 706.895,370.533 2,-21.037 c 0.11849,-1.24638 -5.495,-2.473 -2.991,-2.473 V 851.944 H 861.96 V 110.637 H 631.68 l -144.726,506.174 -4.504,22.655 h 0.212 L 476.874,616.811 332.182,110.637 H 100.618 v 741.307 h 158.56 V 347.023 c 1.253,0 -0.211,1.22 -0.211,2.473 v 21.037 l 144.936,481.411 h 154.773 l 148.22,-481.411 z" />
+</svg>
